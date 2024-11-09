@@ -1,10 +1,91 @@
+@import 'shared/variables.css';
+
+
+:root {
+  font-family: 'Gotham Rounded';
+  font-size: 1rem;
+
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+body {
+  color:pink; 
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  background:linear-gradient(to right, var(--color-background-dark), var(--color-background-light)); 
+
+}
+
+
+img{
+ 
+  
+
+}
+
+
+
+/*
+.container {
+  max-width: 200px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+*/ 
+
+/*
+.inner-container {
+margin: 0 2rem;
+}
+
+.page-header {
+font-size: 2rem;
+font-weight: 500;
+}
+
+.error-message {
+color: hsl(var(--color-danger-hue), 100%, 50%);
+}
+*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tailwind Next Js Default 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+THESE BOTTOM 2 GO ON BOTTOM OF PAGE
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,9 +94,4 @@
     --foreground: #ededed;
   }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+*/ 
