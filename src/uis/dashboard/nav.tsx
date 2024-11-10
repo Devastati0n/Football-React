@@ -7,8 +7,7 @@ import './header.css'
 //import clsx from "clsx";
 //import { usePathname } from "next/navigation";
 
-export default function SideNav() {
- // const pathname = usePathname();
+export default function Nav() {
   return (
     <div>
     <nav className="header-nav">     

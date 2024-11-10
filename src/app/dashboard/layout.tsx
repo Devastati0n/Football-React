@@ -2,20 +2,15 @@
 //import Nav from "@/ui/dashboard/sidenav";import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import nav from '../../uis/dashboard/nav'
+import Nav from '../../uis/dashboard/nav'
 
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-   
-    <div>
-      <nav />
-    </div>
- 
-  
+
+       <div>
+        <Nav />
+        </div>
   );
 }
