@@ -5,7 +5,7 @@ import EugeniaSG from '../public/images/Eugenia-Cooney.jpg';
 
 export default function Eugenia() {
   return (
-   <Image src={EugeniaSG} alt="Eugenia School Girl Outfit" width={35} height={35} />
+   <Image src={EugeniaSG} alt="Eugenia School Girl Outfit" width={40} height={40} />
   );
 }
 

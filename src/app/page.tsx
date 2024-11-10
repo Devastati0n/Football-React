@@ -4,37 +4,17 @@ import './shared/header.css'
 import './shared/variables.css'
 
 
-import Eugenia from './ui/Eugenia_School';
-
 
 
 export default function Home() {
    return (
- 
-        
-        <div>
 
-         <header>   
-          <nav className="header-nav">     
-           
-            <Eugenia />                     
-            <a href="/">Sign-In</a>
-            <a href="/">Link</a>
-            <a href="/">Link2</a>
-            <a href="/">Link3</a>
-            
-           
-         </nav>
-         </header>
-          <main>
 
-          </main> 
+    <div>
+       
+
+  </div>  
       
-
-      <footer>
-      
-      </footer>
-      </div>  
   );
 }
 
