@@ -1,96 +1,36 @@
-@import 'shared/variables.css';
-
-
-:root {
-  font-family: 'Gotham Rounded';
-  font-size: 1rem;
-
-}
-
-
-*, *::before, *::after {
-  box-sizing: border-box;
-  
-}
-
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
-
-body {
-  color:pink; 
-  background: var(--background);
-  background:linear-gradient(to right, var(--color-background-dark), var(--color-background-light)); 
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-img{
- 
-  
-
-}
-
-
-
-/*
-.container {
-  max-width: 200px;
-  margin: auto;
-  margin-bottom: 3rem;
-}
-
-*/ 
-
-/*
-.inner-container {
-margin: 0 2rem;
-}
-
-.page-header {
-font-size: 2rem;
-font-weight: 500;
-}
-
-.error-message {
-color: hsl(var(--color-danger-hue), 100%, 50%);
-}
-*/ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tailwind Next Js Default 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
 
-THESE BOTTOM 2 GO ON BOTTOM OF PAGE
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-*/ 
