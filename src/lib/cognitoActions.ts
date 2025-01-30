@@ -14,10 +14,7 @@ import {
   confirmResetPassword,
 } from "aws-amplify/auth";
 import { getErrorMessage } from "@/utils/get-error-message";
-import { error } from "console";
-import { escape, stringify } from "querystring";
-import { Elsie_Swash_Caps } from "next/font/google";
-import { ErrorComponent } from "next/dist/client/components/error-boundary";
+
 
 
 //1. sets up sign-up process by getting username & user attributes set
